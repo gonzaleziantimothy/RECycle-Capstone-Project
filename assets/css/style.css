@@ -1,0 +1,1010 @@
+/*@font-face {
+	font-family: "rubik";
+	src: url(../fonts/rubik.ttf);
+	font-family: "play";
+	src: url(..fonts/playfair.ttf);
+}	*/
+
+
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	/*font-family: 'Teko', sans-serif;*/
+	font-family: 'Open Sans Condensed', sans-serif;
+	
+}
+
+
+#landing{
+	margin: 0 auto;
+	padding: 0;
+	background-image: url(../images/landing.jpeg);
+	background-position: center;
+	background-size: cover;
+	width:100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+
+}
+
+#landing h1 {
+	font-family: 'Teko', sans-serif;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding-top: 20%;
+}
+
+
+#landing:hover	{
+	 text-decoration:  underline;
+}
+
+#recyclename {
+	position: fixed;
+	top: 0;
+	text-decoration: none;
+	z-index: 10;
+}	
+/*end landing*/
+
+/*home page*/
+
+
+#navbar {
+	color: white;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: rgba(00,00,01,0.1);
+}
+
+#recycle-logo {
+	height: 4vh;
+}
+#navbar:hover {
+	background-color: rgba(00,00,01, 0.5);
+	
+}
+#navbar:hover ~ div > ul > li > a {
+	color: white;
+}
+div > ul > li > a {
+	font-size: 150%;
+	font-family: 'Teko', sans-serif;
+	color: white;
+	text-shadow:.5px .5px 10px  #fff;
+
+}
+hr{
+	width:50vh;
+	margin: 0;
+	padding: 0;
+}
+
+#tagline{
+	font-size: 150%;
+}
+#carousel {
+
+	height: 100vh;
+	width: auto;
+  	overflow: hidden;
+}
+
+#leftright {
+    width: 50px;
+    height: 50px;
+    text-shadow:.5px .5px 20px  #000;
+}
+
+
+
+.logocontainer {
+
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.card {
+	height: 100vh;
+	padding-top: 10vh;
+}
+
+
+
+.card1 {
+	background-image: url(../images/1.jpeg);
+	background-position: center;
+	background-size: cover;
+	
+}
+
+#card2image {
+	background-image: url(../images/repair.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 50vh;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.card2row1 {
+	background-color: #111d23;
+	height: 100vh;
+}
+
+.card2row2 {
+	background-image: url(../images/services.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+/*GALLERY PAGE*/
+.modal-backdrop {
+	position: unset !important;
+}
+
+.card1gallery {
+	background-image: url(../images/restore2.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex !important; 
+	justify-content: center;
+	align-items: center;
+	
+}
+.card2gallery {
+	background-image: url(../images/ross1.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex !important; 
+	justify-content: center;
+	align-items: center;
+	
+}
+.card3gallery {
+	background-image: url(../images/binachi5.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex !important; 
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#modal-gallery {
+
+	border: 0px;
+	background-color: rgba(24,81,45,.5);
+	width: 20%;
+
+}
+
+#serve:hover {
+	background-color: rgba(87,122,142,.5)
+	/*border: 3px solid rgba(24,81,45,.7);*/
+}
+#serve {
+	/*border: 3px solid rgba(24,81,45,.5);*/
+	font-size: 170%;
+	height: 25vh;
+	width: 100%;
+	display: inline-block;
+	font: #fff;
+}
+
+#icon {
+	width: 8vh;
+	height: 8vh;
+}
+.card3 {
+	background-image: url(../images/4.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#gallerytitle {
+	text-align: right;
+	color: #fff;
+	text-shadow:.5px .5px 20px  #000000;
+}
+#gallery-link:hover	{
+	background-color: rgba(8,73,94,.5)
+}
+#gallery-link{
+	font-family: 'Teko', sans-serif;
+	font-size: 120%;
+	height: 10vh;
+	width: 25%;
+	color: #fff;
+	display: inline-block;
+	font: #fff;
+	border: 5px solid rgba(12,130,165,.9);
+	padding: 0;
+	border-radius: 5%;
+	z-index: 5;
+}
+
+#gallery-line {
+	font-size: 170%;
+	text-align: right;
+	color: #fff;
+	text-shadow:.5px .5px 20px  #000000;
+}
+
+
+.home1	{
+	font-size: 5em;
+	font-family: 'Teko', sans-serif;
+	color: #0a1d22;
+	letter-spacing: 0px;
+	text-shadow: 5px 5px 5px #cdd4de;
+}
+
+#googlemap {
+	width: 100%;
+	height: 85vh;
+	display: block;
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid rgb(197,152,1);
+}
+
+.p1 {
+	font-size: 1em;
+	margin-left: 1em;
+	
+}
+
+#carousel:hover ~ footer {
+	display: none; 
+}
+nav {
+	z-index: 3;
+}
+
+footer	{
+	/*font-family: mono, sans-serif;*/
+	
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	font-size: .7em;
+	opacity: 0.7;
+	height: 5vh;
+	background-color: rgba(00,00,01,0.1);
+	z-index: 3;
+}
+
+
+
+
+/*Start of about page*/
+/*mail box*/
+#mailbox {
+	background-image: url(../images/mail.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+
+#formgroup {
+	
+	border: 5px solid rgba(74,161,174,.09);
+	margin-left: 3%;
+	z-index: 3;
+}
+
+#submit {
+	font-family: 'Teko', sans-serif;
+	background-color:rgba(27,34,40,.4);
+	border: 5px solid rgba(74,161,174,.09);
+	font-size: 120%;
+
+}
+
+#question {
+	font-family: 'Teko', sans-serif;
+	color: #fff;
+	font-size: 350%;
+	text-align: right;
+	text-shadow:5px 5px 20px  #000000;
+
+}
+/*end of mailbox*/
+
+/*our story*/
+
+.about-us-head {
+	font-family: 'Teko', sans-serif;
+}
+#tools	{
+	background-image: url("../images/tools.jpg");
+	background-position: center;
+	width: 100%;
+}
+
+.me 	{
+	height: 60vh;
+	width: 100%;
+}
+#bsalogo{
+
+	width: 42%;
+	height: 17vh;
+
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: 5vh;
+}
+
+
+
+
+/*end of our story*/
+
+
+/*maps page*/
+
+
+#location{
+	background-image: url("../images/maps.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.maps {
+	color: #fff;
+	text-shadow:5px 5px 20px  #000000;
+}
+#maps-head{
+	font-family: 'Teko', sans-serif;
+}
+
+/*end of maps*/
+/*end of About page*/
+
+
+/*start of services page*/
+
+.card1services {
+	background-image: url(../images/repairbg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.card2services {
+	background-image: url(../images/restoration.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#card3services	{
+ 	height: 100vh;
+ }
+
+.bikewash {
+	background-image: url(../images/bikewash.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+}
+.repair-image {
+	position: fixed;
+	top: 30vh;
+	height: 30vh;
+	margin: 1vh;
+	box-shadow: 1px 1px 10px rgba(89,101,107,0.6);
+	border-radius: 5px
+}
+
+.repairimage2{
+	height: 35vh;
+	position: relative;
+	top: 18vh;
+}
+
+.pservice {
+	
+	font-size: 4vh;
+	text-shadow: 1px 1px 20px #000;
+	font-weight: 5px;
+	color: #fffff0;
+}
+
+.pservice2 {
+	
+	font-size: 3vh;
+	text-shadow: 1px 1px 20px #000;
+	font-weight: 5px;
+	color: #000;
+}
+
+
+
+/*end of services*/
+
+/*start of gallery modals*/
+
+.gallerycardmodal {
+	height: 100vh !important;
+	width: 100% !important;
+	position: "fixed";
+	left: 0;
+
+}
+
+#body	{
+	height: 79vh;
+	overflow: hidden;
+
+}
+
+.modal-title	{
+	font-size: 80% !important;
+}
+/*size of modal*/
+
+.zoom {
+	padding: 1%;
+	transition: transform .2s;
+
+	width: 100%
+	height: 70vh;
+	margin: 0 auto;
+}
+
+.zoom:hover {
+	transform: scale(1.5);
+}
+
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(8, lfr); 
+	grid-template-rows: repeat(8,5vw);
+	grid-gap: 2%;
+	
+}
+.gallery_img	{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery_item--1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 7;
+}
+.gallery_item--2 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.gallery_item--3 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+.gallery_item--5 {
+	grid-column-start: 3;
+	grid-column-end: 9;
+	grid-row-start: 5;
+	grid-row-end: 7;
+}
+
+.gallery_item--4 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+
+/*start of card 2*/
+.gallery_item-3-1 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.gallery_item-3-2 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+.gallery_item-3-3 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 5;
+	grid-row-end: 7;
+}
+.gallery_item-3-4 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+/*end card 2*/
+/*start of card 3*/
+.gallery_item-2-1 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 5;
+	grid-row-end: 7;
+}
+.gallery_item-2-2 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+.gallery_item-2-3 {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 5;
+	grid-row-end: 7;
+}
+
+/*end of card 3*/
+
+#backtogallery	{
+	width: 100%;
+	
+		}
+
+/*end of gallery modals*/
+
+
+/*mobile styles*/
+@media only screen and (max-width:400px) {
+	
+
+.nav-item {
+	text-align: right !important;
+}
+.home1	{
+	font-size: 180%;
+	font-family: 'Teko', sans-serif;
+	color: #2b4448;
+	letter-spacing: 0px;
+	text-shadow: 10px;
+}
+
+#tagline{
+	font-size: 100%;
+}
+
+#gallery-link {
+	font-family: 'Teko', sans-serif;
+	font-size: 50%;
+	height: 5vh;
+	width: 35%;
+	color: #fff;
+	display: inline-block;
+	font: #fff;
+	border: 5px solid rgba(12,130,165,.9);
+	padding: 0;
+	border-radius: 5%;
+	z-index: 6;
+}
+#gallery-line {
+	font-size: 140%;
+	text-align: right;
+	color: #fff;
+	
+	text-shadow:.5px .5px 30px  #000000;
+	position: relative;
+	top: 65vh;
+}
+
+/*end of home*/
+/*start of about*/
+.maps {
+
+	color: #fff;
+	text-shadow:5px 5px 20px  #000000;
+}
+#googlemap {
+	height: 30vh;
+}
+
+#etona {
+	margin-left: 50%;
+	padding-left: 50%;
+}
+/*mechanic section*/
+#mechanic {
+	align-items: center;
+	height: 15vh;
+
+}
+#tools	{
+	background-image: url("../images/tools.jpg");
+	background-position: center;
+	width: 100%;
+	height: 9vh;
+}
+
+.me 	{
+	height: 15vh;
+	width: 100%;
+}
+#bsalogo{
+
+	width: 42%;
+	height: 5vh;
+	margin-top: 0;
+
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: 5vh;
+}
+/*mechanic section*/
+
+/*service section*/
+.home1	{
+	font-size: 2em;
+	font-family: 'Teko', sans-serif;
+	color: #0a1d22;
+	letter-spacing: 0px;
+	text-shadow: 5px 5px 5px #cdd4de;
+}
+.p1 {
+	font-size: 1em;
+	margin-left: 1em;
+	
+}
+.repair-image {
+	height: 18vh;
+	margin: 1vh;
+	box-shadow: 1px 1px 10px rgba(89,101,107,0.6);
+	border-radius: 5px
+}
+
+.repairimage2{
+	height: 20vh;
+}
+
+.pservice {
+	
+	font-size: 2vh;
+	text-shadow: 1px 1px 20px #000;
+	font-weight: 5px;
+	color: #fffff0;
+}
+
+.pservice2 {
+	
+	font-size: 2vh;
+	text-shadow: 1px 1px 20px #000;
+	font-weight: 5px;
+	color: #000;
+}
+
+#wd40 {
+	height: 10vh;
+	width: 20%;
+}
+#card3service {
+	background-image: url(../images/bikewash.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/*end of service*/
+/*start of gallery*/
+
+.gallery_item--1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 9;
+}
+.gallery_item--2 {
+	grid-column-start: 3;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+.gallery_item--4 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 9;
+	grid-row-end: 12;
+}
+.gallery_item--5 {
+	grid-column-start: 3;
+	grid-column-end: 9;
+	grid-row-start: 5;
+	grid-row-end: 9;
+}
+
+.gallery_item--3 {
+	grid-column-start: 3;
+	grid-column-end: 9;
+	grid-row-start: 9;
+	grid-row-end: 12;
+}
+/*start of card 2*/
+.gallery_item-3-1 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 7;
+}
+.gallery_item-3-2 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+.gallery_item-3-3 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 9;
+	grid-row-end: 11;
+}
+.gallery_item-3-4 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+
+/*start of card 3*/
+.gallery_item-2-1 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 9;
+	grid-row-end: 11;
+}
+.gallery_item-2-2 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 7;
+}
+.gallery_item-2-3 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+/*end of gallery*/
+
+
+/*tablet styles*/
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+#gallery-link {
+	font-family: 'Teko', sans-serif;
+	font-size: 90%;
+	height: 	5vh;
+	width: 35%;
+	color: #fff;
+	display: inline-block;
+	font: #fff;
+	border: 5px solid rgba(12,130,165,.9);
+	padding: 0;
+	border-radius: 5%;
+	z-index: 6;
+}
+#gallery-line {
+	font-size: 180%;
+	text-align: right;
+	color: #fff;
+	
+	text-shadow:.5px .5px 30px  #000000;
+	
+}
+
+/*end of home*/
+/*abiut us*/
+
+#mechanic {
+	align-items: center;
+	height: 80vh;
+
+}
+#tools	{
+	background-image: url("../images/tools.jpg");
+	background-position: center;
+	width: 100%;
+}
+
+.me 	{
+	height: 25vh;
+	width: 100%;
+}
+#bsalogo{
+
+	width: 42%;
+	height: 11vh;
+
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: 5vh;
+}
+
+#googlemap {
+	height: 50vh;
+}
+/*end of about us*/
+
+/*service start*/
+.home1	{
+	font-size: 3em;
+	font-family: 'Teko', sans-serif;
+	color: #0a1d22;
+	letter-spacing: 0px;
+	text-shadow: 5px 5px 5px #cdd4de;
+}
+.p1 {
+	font-size: 3em;
+	margin-left: 3em;
+	
+}
+.repair-image {
+	height: 18vh;
+	margin: 1vh;
+	box-shadow: 1px 1px 10px rgba(89,101,107,0.6);
+	border-radius: 5px
+}
+
+.repairimage2{
+	height: 20vh;
+}
+
+.pservice {
+	
+	font-size: 2vh;
+	text-shadow: 1px 1px 20px #000;
+	font-weight: 5px;
+	color: #fffff0;
+}
+
+.pservice2 {
+	
+	font-size: 2vh;
+	text-shadow: 1px 1px 20px #000;
+	font-weight: 5px;
+	color: #000;
+}
+
+#wd40 {
+	height: 10vh;
+	width: 20%;
+}
+#card3service {
+	background-image: url(../images/bikewash.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/*service end*/
+
+
+/*start of gallery*/
+
+.gallery_item--1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 9;
+}
+.gallery_item--2 {
+	grid-column-start: 3;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+.gallery_item--4 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 9;
+	grid-row-end: 12;
+}
+.gallery_item--5 {
+	grid-column-start: 3;
+	grid-column-end: 9;
+	grid-row-start: 5;
+	grid-row-end: 9;
+}
+
+.gallery_item--3 {
+	grid-column-start: 3;
+	grid-column-end: 9;
+	grid-row-start: 9;
+	grid-row-end: 12;
+}
+/*start of card 2*/
+.gallery_item-3-1 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 7;
+}
+.gallery_item-3-2 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+.gallery_item-3-3 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 9;
+	grid-row-end: 11;
+}
+.gallery_item-3-4 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+
+/*start of card 3*/
+.gallery_item-2-1 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 9;
+	grid-row-end: 11;
+}
+.gallery_item-2-2 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 7;
+}
+.gallery_item-2-3 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+/*end of gallery*/
+
+
+}
+
+
+
+
+/*desktop style*/
+
+@media only screen and (min-width: 961px) {
+
+
